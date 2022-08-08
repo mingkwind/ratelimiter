@@ -1,0 +1,528 @@
+2022/08/08 16:31:56 [emerg] 79546#34810592: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:31:56 [notice] 79546#34810592: try again to bind() after 500ms
+2022/08/08 16:31:56 [emerg] 79546#34810592: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:31:56 [notice] 79546#34810592: try again to bind() after 500ms
+2022/08/08 16:31:56 [emerg] 79546#34810592: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:31:56 [notice] 79546#34810592: try again to bind() after 500ms
+2022/08/08 16:31:56 [emerg] 79546#34810592: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:31:56 [notice] 79546#34810592: try again to bind() after 500ms
+2022/08/08 16:32:10 [emerg] 79705#34810958: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:10 [notice] 79705#34810958: try again to bind() after 500ms
+2022/08/08 16:32:10 [emerg] 79705#34810958: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:10 [notice] 79705#34810958: try again to bind() after 500ms
+2022/08/08 16:32:10 [emerg] 79705#34810958: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:10 [notice] 79705#34810958: try again to bind() after 500ms
+2022/08/08 16:32:10 [emerg] 79705#34810958: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:10 [notice] 79705#34810958: try again to bind() after 500ms
+2022/08/08 16:32:44 [emerg] 80058#34811859: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:44 [notice] 80058#34811859: try again to bind() after 500ms
+2022/08/08 16:32:44 [emerg] 80058#34811859: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:44 [notice] 80058#34811859: try again to bind() after 500ms
+2022/08/08 16:32:44 [emerg] 80058#34811859: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:44 [notice] 80058#34811859: try again to bind() after 500ms
+2022/08/08 16:32:44 [emerg] 80058#34811859: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:44 [notice] 80058#34811859: try again to bind() after 500ms
+2022/08/08 16:32:44 [emerg] 80058#34811859: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:32:44 [notice] 80058#34811859: try again to bind() after 500ms
+2022/08/08 16:34:24 [emerg] 81095#34814566: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:34:24 [notice] 81095#34814566: try again to bind() after 500ms
+2022/08/08 16:34:24 [emerg] 81095#34814566: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:34:24 [notice] 81095#34814566: try again to bind() after 500ms
+2022/08/08 16:34:24 [emerg] 81095#34814566: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:34:24 [notice] 81095#34814566: try again to bind() after 500ms
+2022/08/08 16:34:24 [emerg] 81095#34814566: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/08/08 16:34:24 [notice] 81095#34814566: try again to bind() after 500ms
+2022/08/08 16:36:09 [notice] 82126#34817481: using the "kqueue" event method
+2022/08/08 16:36:09 [notice] 82126#34817481: openresty/1.21.4.1
+2022/08/08 16:36:09 [notice] 82126#34817481: built by clang 13.1.6 (clang-1316.0.21.2.5)
+2022/08/08 16:36:09 [notice] 82126#34817481: OS: Darwin 21.5.0
+2022/08/08 16:36:09 [notice] 82126#34817481: hw.ncpu: 12
+2022/08/08 16:36:09 [notice] 82126#34817481: net.inet.tcp.sendspace: 131072
+2022/08/08 16:36:09 [notice] 82126#34817481: kern.ipc.somaxconn: 128
+2022/08/08 16:36:09 [notice] 82126#34817481: getrlimit(RLIMIT_NOFILE): 10240:10240
+2022/08/08 16:36:09 [notice] 82127#34817482: start worker processes
+2022/08/08 16:36:09 [notice] 82127#34817482: start worker process 82128
+2022/08/08 16:36:48 [error] 82128#34817483: *1 failed to load external Lua file "./lua/api/ratelimiter_test.lua": cannot open ./lua/api/ratelimiter_test.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/08/08 16:36:48 [info] 82128#34817483: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:37:13 [error] 82128#34817483: *2 failed to load external Lua file "./lua/api/ratelimiter_test.lua": cannot open ./lua/api/ratelimiter_test.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/08/08 16:37:13 [info] 82128#34817483: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:37:17 [notice] 82127#34817482: signal 1 (SIGHUP) received from 82695, reconfiguring
+2022/08/08 16:37:17 [notice] 82127#34817482: reconfiguring
+2022/08/08 16:37:17 [notice] 82127#34817482: using the "kqueue" event method
+2022/08/08 16:37:17 [notice] 82127#34817482: start worker processes
+2022/08/08 16:37:17 [notice] 82127#34817482: start worker process 82697
+2022/08/08 16:37:17 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:37:17 [notice] 82128#34817483: gracefully shutting down
+2022/08/08 16:37:17 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:37:17 [notice] 82128#34817483: exiting
+2022/08/08 16:37:17 [notice] 82128#34817483: exit
+2022/08/08 16:37:17 [notice] 82127#34817482: signal 20 (SIGCHLD) received from 82128
+2022/08/08 16:37:17 [notice] 82127#34817482: worker process 82128 exited with code 0
+2022/08/08 16:37:17 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:37:17 [notice] 82127#34817482: signal 23 (SIGIO) received from 82697
+2022/08/08 16:37:23 [info] 82697#34819309: *3 [lua] ratelimiter_test.lua:22: token: 1659947843832, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:37:23 [info] 82697#34819309: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:37:25 [info] 82697#34819309: *4 [lua] ratelimiter_test.lua:22: token: 1659947845448, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:37:25 [info] 82697#34819309: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:37:26 [info] 82697#34819309: *5 [lua] ratelimiter_test.lua:22: token: 1659947846144, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:37:26 [info] 82697#34819309: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:37:26 [info] 82697#34819309: *6 [lua] ratelimiter_test.lua:22: token: 1659947846874, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:37:26 [info] 82697#34819309: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:37:27 [info] 82697#34819309: *7 [lua] ratelimiter_test.lua:22: token: 1659947847832, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:37:27 [info] 82697#34819309: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *8 [lua] ratelimiter_test.lua:22: token: 1659947936260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *9 [lua] ratelimiter_test.lua:22: token: 1659947936274, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *9 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *10 [lua] ratelimiter_test.lua:22: token: 1659947936287, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *10 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *11 [lua] ratelimiter_test.lua:22: token: 1659947936303, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *11 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *12 [lua] ratelimiter_test.lua:22: token: 1659947936320, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *12 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *13 [lua] ratelimiter_test.lua:22: token: 1659947936336, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *13 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *14 [lua] ratelimiter_test.lua:22: token: 1659947936358, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *14 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *15 [lua] ratelimiter_test.lua:22: token: 1659947936375, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *15 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *16 [lua] ratelimiter_test.lua:22: token: 1659947936391, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *16 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *17 [lua] ratelimiter_test.lua:22: token: 1659947936408, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *17 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:56 [info] 82697#34819309: *18 [lua] ratelimiter_test.lua:22: token: 1659947936425, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:56 [info] 82697#34819309: *18 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:57 [info] 82697#34819309: *19 [lua] ratelimiter_test.lua:22: token: 1659947937260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:57 [info] 82697#34819309: *19 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:58 [info] 82697#34819309: *20 [lua] ratelimiter_test.lua:22: token: 1659947938260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:58 [info] 82697#34819309: *20 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:38:59 [info] 82697#34819309: *21 [lua] ratelimiter_test.lua:22: token: 1659947939260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:38:59 [info] 82697#34819309: *21 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:00 [info] 82697#34819309: *22 [lua] ratelimiter_test.lua:22: token: 1659947940260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:00 [info] 82697#34819309: *22 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:01 [info] 82697#34819309: *23 [lua] ratelimiter_test.lua:22: token: 1659947941260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:01 [info] 82697#34819309: *23 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:02 [info] 82697#34819309: *24 [lua] ratelimiter_test.lua:22: token: 1659947942260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:02 [info] 82697#34819309: *24 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:03 [info] 82697#34819309: *25 [lua] ratelimiter_test.lua:22: token: 1659947943260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:03 [info] 82697#34819309: *25 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:04 [info] 82697#34819309: *26 [lua] ratelimiter_test.lua:22: token: 1659947944260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:04 [info] 82697#34819309: *26 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:05 [info] 82697#34819309: *27 [lua] ratelimiter_test.lua:22: token: 1659947945260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:05 [info] 82697#34819309: *27 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:06 [info] 82697#34819309: *28 [lua] ratelimiter_test.lua:22: token: 1659947946260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:06 [info] 82697#34819309: *28 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:07 [info] 82697#34819309: *29 [lua] ratelimiter_test.lua:22: token: 1659947947260, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:07 [info] 82697#34819309: *29 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:51 [notice] 82127#34817482: signal 1 (SIGHUP) received from 84233, reconfiguring
+2022/08/08 16:39:51 [notice] 82127#34817482: reconfiguring
+2022/08/08 16:39:51 [notice] 82127#34817482: using the "kqueue" event method
+2022/08/08 16:39:51 [notice] 82127#34817482: start worker processes
+2022/08/08 16:39:51 [notice] 82127#34817482: start worker process 84235
+2022/08/08 16:39:52 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:39:52 [notice] 82697#34819309: gracefully shutting down
+2022/08/08 16:39:52 [notice] 82697#34819309: exiting
+2022/08/08 16:39:52 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:39:52 [notice] 82697#34819309: exit
+2022/08/08 16:39:52 [notice] 82127#34817482: signal 20 (SIGCHLD) received from 82697
+2022/08/08 16:39:52 [notice] 82127#34817482: worker process 82697 exited with code 0
+2022/08/08 16:39:52 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:39:52 [notice] 82127#34817482: signal 23 (SIGIO) received from 84235
+2022/08/08 16:39:53 [info] 84235#34823921: *30 [lua] ratelimiter_test.lua:22: token: 1659947993613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *30 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *31 [lua] ratelimiter_test.lua:22: token: 1659947993631, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *31 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *32 [lua] ratelimiter_test.lua:22: token: 1659947993650, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *32 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *33 [lua] ratelimiter_test.lua:22: token: 1659947993706, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *33 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *34 [lua] ratelimiter_test.lua:22: token: 1659947993725, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *34 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *35 [lua] ratelimiter_test.lua:22: token: 1659947993746, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *35 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *36 [lua] ratelimiter_test.lua:22: token: 1659947993764, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *36 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *37 [lua] ratelimiter_test.lua:22: token: 1659947993781, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *37 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *38 [lua] ratelimiter_test.lua:22: token: 1659947993799, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *38 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *39 [lua] ratelimiter_test.lua:22: token: 1659947993817, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *39 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:53 [info] 84235#34823921: *40 [lua] ratelimiter_test.lua:22: token: 1659947993833, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:53 [info] 84235#34823921: *40 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:54 [info] 84235#34823921: *41 [lua] ratelimiter_test.lua:22: token: 1659947994613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:54 [info] 84235#34823921: *41 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:55 [info] 84235#34823921: *42 [lua] ratelimiter_test.lua:22: token: 1659947995613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:55 [info] 84235#34823921: *42 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:56 [info] 84235#34823921: *43 [lua] ratelimiter_test.lua:22: token: 1659947996613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:56 [info] 84235#34823921: *43 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:57 [info] 84235#34823921: *44 [lua] ratelimiter_test.lua:22: token: 1659947997613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:57 [info] 84235#34823921: *44 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:58 [info] 84235#34823921: *45 [lua] ratelimiter_test.lua:22: token: 1659947998613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:58 [info] 84235#34823921: *45 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:39:59 [info] 84235#34823921: *46 [lua] ratelimiter_test.lua:22: token: 1659947999613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:39:59 [info] 84235#34823921: *46 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:04 [info] 84235#34823921: *47 [lua] ratelimiter_test.lua:22: token: 1659948004337, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:04 [info] 84235#34823921: *47 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:04 [info] 84235#34823921: *48 [lua] ratelimiter_test.lua:22: token: 1659948004356, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:04 [info] 84235#34823921: *48 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:04 [info] 84235#34823921: *49 [lua] ratelimiter_test.lua:22: token: 1659948004374, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:04 [info] 84235#34823921: *49 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:04 [info] 84235#34823921: *50 [lua] ratelimiter_test.lua:22: token: 1659948004390, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:04 [info] 84235#34823921: *50 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:04 [info] 84235#34823921: *51 [lua] ratelimiter_test.lua:22: token: 1659948004613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:04 [info] 84235#34823921: *51 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:05 [info] 84235#34823921: *52 [lua] ratelimiter_test.lua:22: token: 1659948005613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:05 [info] 84235#34823921: *52 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:06 [info] 84235#34823921: *53 [lua] ratelimiter_test.lua:22: token: 1659948006613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:06 [info] 84235#34823921: *53 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:07 [info] 84235#34823921: *54 [lua] ratelimiter_test.lua:22: token: 1659948007613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:07 [info] 84235#34823921: *54 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:13 [notice] 82127#34817482: signal 1 (SIGHUP) received from 84468, reconfiguring
+2022/08/08 16:40:13 [notice] 82127#34817482: reconfiguring
+2022/08/08 16:40:13 [notice] 82127#34817482: using the "kqueue" event method
+2022/08/08 16:40:13 [notice] 82127#34817482: start worker processes
+2022/08/08 16:40:13 [notice] 82127#34817482: start worker process 84470
+2022/08/08 16:40:13 [notice] 84235#34823921: gracefully shutting down
+2022/08/08 16:40:13 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:40:13 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:40:13 [notice] 84235#34823921: exiting
+2022/08/08 16:40:13 [notice] 84235#34823921: exit
+2022/08/08 16:40:13 [notice] 82127#34817482: signal 20 (SIGCHLD) received from 84235
+2022/08/08 16:40:13 [notice] 82127#34817482: worker process 84235 exited with code 0
+2022/08/08 16:40:13 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:40:13 [notice] 82127#34817482: signal 23 (SIGIO) received from 84470
+2022/08/08 16:40:16 [info] 84470#34824555: *55 [lua] ratelimiter_test.lua:22: token: 1659948016676, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *55 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *56 [lua] ratelimiter_test.lua:22: token: 1659948016692, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *56 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *57 [lua] ratelimiter_test.lua:22: token: 1659948016707, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *57 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *58 [lua] ratelimiter_test.lua:22: token: 1659948016724, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *58 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *59 [lua] ratelimiter_test.lua:22: token: 1659948016742, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *59 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *60 [lua] ratelimiter_test.lua:22: token: 1659948016787, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *60 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *61 [lua] ratelimiter_test.lua:22: token: 1659948016814, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *61 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *62 [lua] ratelimiter_test.lua:22: token: 1659948016830, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *62 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:16 [info] 84470#34824555: *63 [lua] ratelimiter_test.lua:22: token: 1659948016847, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:16 [info] 84470#34824555: *63 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:17 [info] 84470#34824555: *64 [lua] ratelimiter_test.lua:22: token: 1659948017613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:17 [info] 84470#34824555: *64 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:18 [info] 84470#34824555: *65 [lua] ratelimiter_test.lua:22: token: 1659948018613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:18 [info] 84470#34824555: *65 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:19 [info] 84470#34824555: *66 [lua] ratelimiter_test.lua:22: token: 1659948019613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:19 [info] 84470#34824555: *66 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:20 [info] 84470#34824555: *67 [lua] ratelimiter_test.lua:22: token: 1659948020613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:20 [info] 84470#34824555: *67 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:21 [info] 84470#34824555: *68 [lua] ratelimiter_test.lua:22: token: 1659948021613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:21 [info] 84470#34824555: *68 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:22 [info] 84470#34824555: *69 [lua] ratelimiter_test.lua:22: token: 1659948022613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:22 [info] 84470#34824555: *69 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:23 [info] 84470#34824555: *70 [lua] ratelimiter_test.lua:22: token: 1659948023613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:23 [info] 84470#34824555: *70 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:24 [info] 84470#34824555: *71 [lua] ratelimiter_test.lua:22: token: 1659948024613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:24 [info] 84470#34824555: *71 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:25 [info] 84470#34824555: *72 [lua] ratelimiter_test.lua:22: token: 1659948025613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:25 [info] 84470#34824555: *72 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:26 [info] 84470#34824555: *73 [lua] ratelimiter_test.lua:22: token: 1659948026613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:26 [info] 84470#34824555: *73 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:27 [info] 84470#34824555: *74 [lua] ratelimiter_test.lua:22: token: 1659948027613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:27 [info] 84470#34824555: *74 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:28 [info] 84470#34824555: *75 [lua] ratelimiter_test.lua:22: token: 1659948028613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:28 [info] 84470#34824555: *75 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:29 [info] 84470#34824555: *76 [lua] ratelimiter_test.lua:22: token: 1659948029613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:29 [info] 84470#34824555: *76 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:30 [info] 84470#34824555: *77 [lua] ratelimiter_test.lua:22: token: 1659948030613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:30 [info] 84470#34824555: *77 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:31 [info] 84470#34824555: *78 [lua] ratelimiter_test.lua:22: token: 1659948031613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:31 [info] 84470#34824555: *78 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:32 [info] 84470#34824555: *79 [lua] ratelimiter_test.lua:22: token: 1659948032613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:32 [info] 84470#34824555: *79 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:33 [info] 84470#34824555: *80 [lua] ratelimiter_test.lua:22: token: 1659948033613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:33 [info] 84470#34824555: *80 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:34 [info] 84470#34824555: *81 [lua] ratelimiter_test.lua:22: token: 1659948034613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:34 [info] 84470#34824555: *81 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:35 [info] 84470#34824555: *82 [lua] ratelimiter_test.lua:22: token: 1659948035613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:35 [info] 84470#34824555: *82 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:36 [info] 84470#34824555: *83 [lua] ratelimiter_test.lua:22: token: 1659948036613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:36 [info] 84470#34824555: *83 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:37 [info] 84470#34824555: *84 [lua] ratelimiter_test.lua:22: token: 1659948037613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:37 [info] 84470#34824555: *84 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:38 [info] 84470#34824555: *85 [lua] ratelimiter_test.lua:22: token: 1659948038613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:38 [info] 84470#34824555: *85 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:39 [info] 84470#34824555: *86 [lua] ratelimiter_test.lua:22: token: 1659948039613, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:39 [info] 84470#34824555: *86 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:56 [notice] 82127#34817482: signal 1 (SIGHUP) received from 84879, reconfiguring
+2022/08/08 16:40:56 [notice] 82127#34817482: reconfiguring
+2022/08/08 16:40:56 [notice] 82127#34817482: using the "kqueue" event method
+2022/08/08 16:40:56 [notice] 82127#34817482: start worker processes
+2022/08/08 16:40:56 [notice] 82127#34817482: start worker process 84881
+2022/08/08 16:40:56 [notice] 84470#34824555: gracefully shutting down
+2022/08/08 16:40:56 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:40:56 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:40:56 [notice] 84470#34824555: exiting
+2022/08/08 16:40:56 [notice] 84470#34824555: exit
+2022/08/08 16:40:56 [notice] 82127#34817482: signal 20 (SIGCHLD) received from 84470
+2022/08/08 16:40:56 [notice] 82127#34817482: worker process 84470 exited with code 0
+2022/08/08 16:40:56 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:40:56 [notice] 82127#34817482: signal 23 (SIGIO) received from 84881
+2022/08/08 16:40:58 [info] 84881#34825711: *87 [lua] ratelimiter_test.lua:22: token: 1659948058954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:58 [info] 84881#34825711: *87 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:58 [info] 84881#34825711: *88 [lua] ratelimiter_test.lua:22: token: 1659948058972, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:58 [info] 84881#34825711: *88 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:58 [info] 84881#34825711: *89 [lua] ratelimiter_test.lua:22: token: 1659948058989, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:58 [info] 84881#34825711: *89 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *90 [lua] ratelimiter_test.lua:22: token: 1659948059009, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *90 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *91 [lua] ratelimiter_test.lua:22: token: 1659948059025, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *91 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *92 [lua] ratelimiter_test.lua:22: token: 1659948059042, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *92 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *93 [lua] ratelimiter_test.lua:22: token: 1659948059067, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *93 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *94 [lua] ratelimiter_test.lua:22: token: 1659948059083, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *94 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *95 [lua] ratelimiter_test.lua:22: token: 1659948059102, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *95 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *96 [lua] ratelimiter_test.lua:22: token: 1659948059131, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *96 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *97 [lua] ratelimiter_test.lua:22: token: 1659948059170, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *97 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:40:59 [info] 84881#34825711: *98 [lua] ratelimiter_test.lua:22: token: 1659948059954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:40:59 [info] 84881#34825711: *98 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:00 [info] 84881#34825711: *99 [lua] ratelimiter_test.lua:22: token: 1659948060954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:00 [info] 84881#34825711: *99 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:01 [info] 84881#34825711: *100 [lua] ratelimiter_test.lua:22: token: 1659948061954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:01 [info] 84881#34825711: *100 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:02 [info] 84881#34825711: *101 [lua] ratelimiter_test.lua:22: token: 1659948062954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:02 [info] 84881#34825711: *101 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:03 [info] 84881#34825711: *102 [lua] ratelimiter_test.lua:22: token: 1659948063954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:03 [info] 84881#34825711: *102 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:04 [info] 84881#34825711: *103 [lua] ratelimiter_test.lua:22: token: 1659948064954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:04 [info] 84881#34825711: *103 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:09 [notice] 82127#34817482: signal 1 (SIGHUP) received from 85019, reconfiguring
+2022/08/08 16:41:09 [notice] 82127#34817482: reconfiguring
+2022/08/08 16:41:09 [notice] 82127#34817482: using the "kqueue" event method
+2022/08/08 16:41:09 [notice] 82127#34817482: start worker processes
+2022/08/08 16:41:09 [notice] 82127#34817482: start worker process 85021
+2022/08/08 16:41:09 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:41:09 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:41:09 [notice] 84881#34825711: gracefully shutting down
+2022/08/08 16:41:09 [notice] 84881#34825711: exiting
+2022/08/08 16:41:09 [notice] 84881#34825711: exit
+2022/08/08 16:41:09 [notice] 82127#34817482: signal 20 (SIGCHLD) received from 84881
+2022/08/08 16:41:09 [notice] 82127#34817482: worker process 84881 exited with code 0
+2022/08/08 16:41:09 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:41:09 [notice] 82127#34817482: signal 23 (SIGIO) received from 85021
+2022/08/08 16:41:11 [info] 85021#34826127: *104 [lua] ratelimiter_test.lua:22: token: 1659948071923, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:11 [info] 85021#34826127: *104 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:11 [info] 85021#34826127: *105 [lua] ratelimiter_test.lua:22: token: 1659948071941, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:11 [info] 85021#34826127: *105 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:11 [info] 85021#34826127: *106 [lua] ratelimiter_test.lua:22: token: 1659948071958, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:11 [info] 85021#34826127: *106 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:11 [info] 85021#34826127: *107 [lua] ratelimiter_test.lua:22: token: 1659948071976, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:11 [info] 85021#34826127: *107 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:11 [info] 85021#34826127: *108 [lua] ratelimiter_test.lua:22: token: 1659948071995, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:11 [info] 85021#34826127: *108 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:12 [info] 85021#34826127: *109 [lua] ratelimiter_test.lua:22: token: 1659948072014, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:12 [info] 85021#34826127: *109 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:12 [info] 85021#34826127: *110 [lua] ratelimiter_test.lua:22: token: 1659948072031, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:12 [info] 85021#34826127: *110 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:12 [info] 85021#34826127: *111 [lua] ratelimiter_test.lua:22: token: 1659948072954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:12 [info] 85021#34826127: *111 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:13 [info] 85021#34826127: *112 [lua] ratelimiter_test.lua:22: token: 1659948073954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:13 [info] 85021#34826127: *112 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:14 [info] 85021#34826127: *113 [lua] ratelimiter_test.lua:22: token: 1659948074954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:14 [info] 85021#34826127: *113 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:15 [info] 85021#34826127: *114 [lua] ratelimiter_test.lua:22: token: 1659948075954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:15 [info] 85021#34826127: *114 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:16 [info] 85021#34826127: *115 [lua] ratelimiter_test.lua:22: token: 1659948076954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:16 [info] 85021#34826127: *115 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:17 [info] 85021#34826127: *116 [lua] ratelimiter_test.lua:22: token: 1659948077954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:17 [info] 85021#34826127: *116 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:18 [info] 85021#34826127: *117 [lua] ratelimiter_test.lua:22: token: 1659948078954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:18 [info] 85021#34826127: *117 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:19 [info] 85021#34826127: *118 [lua] ratelimiter_test.lua:22: token: 1659948079954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:19 [info] 85021#34826127: *118 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:20 [info] 85021#34826127: *119 [lua] ratelimiter_test.lua:22: token: 1659948080954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:20 [info] 85021#34826127: *119 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:21 [info] 85021#34826127: *120 [lua] ratelimiter_test.lua:22: token: 1659948081954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:21 [info] 85021#34826127: *120 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:22 [info] 85021#34826127: *121 [lua] ratelimiter_test.lua:22: token: 1659948082954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:22 [info] 85021#34826127: *121 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:23 [info] 85021#34826127: *122 [lua] ratelimiter_test.lua:22: token: 1659948083954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:23 [info] 85021#34826127: *122 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:24 [info] 85021#34826127: *123 [lua] ratelimiter_test.lua:22: token: 1659948084954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:24 [info] 85021#34826127: *123 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:25 [info] 85021#34826127: *124 [lua] ratelimiter_test.lua:22: token: 1659948085954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:25 [info] 85021#34826127: *124 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:26 [info] 85021#34826127: *125 [lua] ratelimiter_test.lua:22: token: 1659948086954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:26 [info] 85021#34826127: *125 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:27 [info] 85021#34826127: *126 [lua] ratelimiter_test.lua:22: token: 1659948087954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:27 [info] 85021#34826127: *126 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:28 [info] 85021#34826127: *127 [lua] ratelimiter_test.lua:22: token: 1659948088954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:28 [info] 85021#34826127: *127 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:29 [info] 85021#34826127: *128 [lua] ratelimiter_test.lua:22: token: 1659948089954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:29 [info] 85021#34826127: *128 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:30 [info] 85021#34826127: *129 [lua] ratelimiter_test.lua:22: token: 1659948090954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:30 [info] 85021#34826127: *129 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:31 [info] 85021#34826127: *130 [lua] ratelimiter_test.lua:22: token: 1659948091954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:31 [info] 85021#34826127: *130 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:32 [info] 85021#34826127: *131 [lua] ratelimiter_test.lua:22: token: 1659948092954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:32 [info] 85021#34826127: *131 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:33 [info] 85021#34826127: *132 [lua] ratelimiter_test.lua:22: token: 1659948093954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:33 [info] 85021#34826127: *132 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:34 [info] 85021#34826127: *133 [lua] ratelimiter_test.lua:22: token: 1659948094954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:34 [info] 85021#34826127: *133 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:35 [info] 85021#34826127: *134 [lua] ratelimiter_test.lua:22: token: 1659948095954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:35 [info] 85021#34826127: *134 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:36 [info] 85021#34826127: *135 [lua] ratelimiter_test.lua:22: token: 1659948096954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:36 [info] 85021#34826127: *135 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:37 [info] 85021#34826127: *136 [lua] ratelimiter_test.lua:22: token: 1659948097954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:37 [info] 85021#34826127: *136 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:38 [info] 85021#34826127: *137 [lua] ratelimiter_test.lua:22: token: 1659948098954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:38 [info] 85021#34826127: *137 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:39 [info] 85021#34826127: *138 [lua] ratelimiter_test.lua:22: token: 1659948099954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:39 [info] 85021#34826127: *138 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:40 [info] 85021#34826127: *139 [lua] ratelimiter_test.lua:22: token: 1659948100954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:40 [info] 85021#34826127: *139 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:41 [info] 85021#34826127: *140 [lua] ratelimiter_test.lua:22: token: 1659948101954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:41 [info] 85021#34826127: *140 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:42 [info] 85021#34826127: *141 [lua] ratelimiter_test.lua:22: token: 1659948102954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:42 [info] 85021#34826127: *141 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:43 [info] 85021#34826127: *142 [lua] ratelimiter_test.lua:22: token: 1659948103954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:43 [info] 85021#34826127: *142 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:44 [info] 85021#34826127: *143 [lua] ratelimiter_test.lua:22: token: 1659948104954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:44 [info] 85021#34826127: *143 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:45 [info] 85021#34826127: *144 [lua] ratelimiter_test.lua:22: token: 1659948105954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:45 [info] 85021#34826127: *144 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:46 [info] 85021#34826127: *145 [lua] ratelimiter_test.lua:22: token: 1659948106954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:46 [info] 85021#34826127: *145 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:47 [info] 85021#34826127: *146 [lua] ratelimiter_test.lua:22: token: 1659948107954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:47 [info] 85021#34826127: *146 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:48 [info] 85021#34826127: *147 [lua] ratelimiter_test.lua:22: token: 1659948108954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:48 [info] 85021#34826127: *147 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:49 [info] 85021#34826127: *148 [lua] ratelimiter_test.lua:22: token: 1659948109954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:49 [info] 85021#34826127: *148 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:50 [info] 85021#34826127: *149 [lua] ratelimiter_test.lua:22: token: 1659948110954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:50 [info] 85021#34826127: *149 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:41:51 [info] 85021#34826127: *150 [lua] ratelimiter_test.lua:22: token: 1659948111954, client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "localhost"
+2022/08/08 16:41:51 [info] 85021#34826127: *150 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:26 [notice] 82127#34817482: signal 1 (SIGHUP) received from 85754, reconfiguring
+2022/08/08 16:42:26 [notice] 82127#34817482: reconfiguring
+2022/08/08 16:42:26 [notice] 82127#34817482: using the "kqueue" event method
+2022/08/08 16:42:26 [notice] 82127#34817482: start worker processes
+2022/08/08 16:42:26 [notice] 82127#34817482: start worker process 85756
+2022/08/08 16:42:26 [notice] 85021#34826127: gracefully shutting down
+2022/08/08 16:42:26 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:42:26 [notice] 85021#34826127: exiting
+2022/08/08 16:42:26 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:42:26 [notice] 85021#34826127: exit
+2022/08/08 16:42:26 [notice] 82127#34817482: signal 20 (SIGCHLD) received from 85021
+2022/08/08 16:42:26 [notice] 82127#34817482: worker process 85021 exited with code 0
+2022/08/08 16:42:26 [notice] 82127#34817482: signal 23 (SIGIO) received
+2022/08/08 16:42:26 [notice] 82127#34817482: signal 23 (SIGIO) received from 85756
+2022/08/08 16:42:28 [info] 85756#34828168: *151 [lua] ratelimiter_test.lua:22: token: 1659948148069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *151 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *152 [lua] ratelimiter_test.lua:22: token: 1659948148090, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *152 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *153 [lua] ratelimiter_test.lua:22: token: 1659948148108, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *153 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *154 [lua] ratelimiter_test.lua:22: token: 1659948148125, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *154 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *155 [lua] ratelimiter_test.lua:22: token: 1659948148141, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *155 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *156 [lua] ratelimiter_test.lua:22: token: 1659948148160, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *156 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *157 [lua] ratelimiter_test.lua:22: token: 1659948148180, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *157 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *158 [lua] ratelimiter_test.lua:22: token: 1659948148219, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *158 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *159 [lua] ratelimiter_test.lua:22: token: 1659948148246, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *159 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *160 [lua] ratelimiter_test.lua:22: token: 1659948148262, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *160 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:28 [info] 85756#34828168: *161 [lua] ratelimiter_test.lua:22: token: 1659948148278, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:28 [info] 85756#34828168: *161 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:29 [info] 85756#34828168: *162 [lua] ratelimiter_test.lua:22: token: 1659948149069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:29 [info] 85756#34828168: *162 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:30 [info] 85756#34828168: *163 [lua] ratelimiter_test.lua:22: token: 1659948150069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:30 [info] 85756#34828168: *163 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:31 [info] 85756#34828168: *164 [lua] ratelimiter_test.lua:22: token: 1659948151069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:31 [info] 85756#34828168: *164 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:32 [info] 85756#34828168: *165 [lua] ratelimiter_test.lua:22: token: 1659948152069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:32 [info] 85756#34828168: *165 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:33 [info] 85756#34828168: *166 [lua] ratelimiter_test.lua:22: token: 1659948153069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:33 [info] 85756#34828168: *166 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:34 [info] 85756#34828168: *167 [lua] ratelimiter_test.lua:22: token: 1659948154069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:34 [info] 85756#34828168: *167 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:35 [info] 85756#34828168: *168 [lua] ratelimiter_test.lua:22: token: 1659948155069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:35 [info] 85756#34828168: *168 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:36 [info] 85756#34828168: *169 [lua] ratelimiter_test.lua:22: token: 1659948156069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:36 [info] 85756#34828168: *169 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:37 [info] 85756#34828168: *170 [lua] ratelimiter_test.lua:22: token: 1659948157069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:37 [info] 85756#34828168: *170 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:38 [info] 85756#34828168: *171 [lua] ratelimiter_test.lua:22: token: 1659948158069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:38 [info] 85756#34828168: *171 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:39 [info] 85756#34828168: *172 [lua] ratelimiter_test.lua:22: token: 1659948159069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:39 [info] 85756#34828168: *172 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:40 [info] 85756#34828168: *173 [lua] ratelimiter_test.lua:22: token: 1659948160069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:40 [info] 85756#34828168: *173 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:41 [info] 85756#34828168: *174 [lua] ratelimiter_test.lua:22: token: 1659948161069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:41 [info] 85756#34828168: *174 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:42 [info] 85756#34828168: *175 [lua] ratelimiter_test.lua:22: token: 1659948162069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:42 [info] 85756#34828168: *175 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:43 [info] 85756#34828168: *176 [lua] ratelimiter_test.lua:22: token: 1659948163069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:43 [info] 85756#34828168: *176 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:44 [info] 85756#34828168: *177 [lua] ratelimiter_test.lua:22: token: 1659948164069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:44 [info] 85756#34828168: *177 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:45 [info] 85756#34828168: *178 [lua] ratelimiter_test.lua:22: token: 1659948165069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:45 [info] 85756#34828168: *178 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:46 [info] 85756#34828168: *179 [lua] ratelimiter_test.lua:22: token: 1659948166069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:46 [info] 85756#34828168: *179 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:47 [info] 85756#34828168: *180 [lua] ratelimiter_test.lua:22: token: 1659948167069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:47 [info] 85756#34828168: *180 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:48 [info] 85756#34828168: *181 [lua] ratelimiter_test.lua:22: token: 1659948168069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:48 [info] 85756#34828168: *181 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:49 [info] 85756#34828168: *182 [lua] ratelimiter_test.lua:22: token: 1659948169069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:49 [info] 85756#34828168: *182 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:50 [info] 85756#34828168: *183 [lua] ratelimiter_test.lua:22: token: 1659948170069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:50 [info] 85756#34828168: *183 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:51 [info] 85756#34828168: *184 [lua] ratelimiter_test.lua:22: token: 1659948171069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:51 [info] 85756#34828168: *184 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:52 [info] 85756#34828168: *185 [lua] ratelimiter_test.lua:22: token: 1659948172069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:52 [info] 85756#34828168: *185 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:53 [info] 85756#34828168: *186 [lua] ratelimiter_test.lua:22: token: 1659948173069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:53 [info] 85756#34828168: *186 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:54 [info] 85756#34828168: *187 [lua] ratelimiter_test.lua:22: token: 1659948174069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:54 [info] 85756#34828168: *187 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:55 [info] 85756#34828168: *188 [lua] ratelimiter_test.lua:22: token: 1659948175069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:55 [info] 85756#34828168: *188 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:56 [info] 85756#34828168: *189 [lua] ratelimiter_test.lua:22: token: 1659948176069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:56 [info] 85756#34828168: *189 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:57 [info] 85756#34828168: *190 [lua] ratelimiter_test.lua:22: token: 1659948177069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:57 [info] 85756#34828168: *190 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:58 [info] 85756#34828168: *191 [lua] ratelimiter_test.lua:22: token: 1659948178069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:58 [info] 85756#34828168: *191 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:42:59 [info] 85756#34828168: *192 [lua] ratelimiter_test.lua:22: token: 1659948179069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:42:59 [info] 85756#34828168: *192 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:00 [info] 85756#34828168: *193 [lua] ratelimiter_test.lua:22: token: 1659948180069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:00 [info] 85756#34828168: *193 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:01 [info] 85756#34828168: *194 [lua] ratelimiter_test.lua:22: token: 1659948181069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:01 [info] 85756#34828168: *194 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:02 [info] 85756#34828168: *195 [lua] ratelimiter_test.lua:22: token: 1659948182069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:02 [info] 85756#34828168: *195 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:03 [info] 85756#34828168: *196 [lua] ratelimiter_test.lua:22: token: 1659948183069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:03 [info] 85756#34828168: *196 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:04 [info] 85756#34828168: *197 [lua] ratelimiter_test.lua:22: token: 1659948184069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:04 [info] 85756#34828168: *197 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:05 [info] 85756#34828168: *198 [lua] ratelimiter_test.lua:22: token: 1659948185069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:05 [info] 85756#34828168: *198 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:06 [info] 85756#34828168: *199 [lua] ratelimiter_test.lua:22: token: 1659948186069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:06 [info] 85756#34828168: *199 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/08/08 16:43:07 [info] 85756#34828168: *200 [lua] ratelimiter_test.lua:22: token: 1659948187069, client: 127.0.0.1, server: localhost, request: "GET /check HTTP/1.1", host: "localhost"
+2022/08/08 16:43:07 [info] 85756#34828168: *200 kevent() reported that client 127.0.0.1 closed keepalive connection
