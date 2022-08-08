@@ -61,6 +61,12 @@ http {
 
 # 测试
 
+启动openresty
+
+```shell
+openresty -p ./ -c conf/nginx.conf
+```
+
 sh test.sh
 
 ```shell
