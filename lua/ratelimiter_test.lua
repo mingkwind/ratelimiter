@@ -6,7 +6,7 @@ local lim, err = limit_req.new("my_limit_req_store", 1, 10)
 
 if not lim then
     ngx.log(ngx.ERR,
-        "failed to instantiate a my_rate object: ", err)
+        "failed to instantiate a mw_ratelimiter object: ", err)
     return ngx.exit(500)
 end
 

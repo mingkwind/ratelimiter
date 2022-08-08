@@ -99,4 +99,16 @@ function _M.incoming(self, key)
     end
 end
 
+-- lim:set_rate(rate)
+function _M.set_rate(self, rate)
+    assert(rate > 0)
+    self.perrequest = 1000 / rate
+end
+
+-- lim:set_burst(burst)
+function _M.set_burst(self, burst)
+    assert(burst >= 0)
+    self.burst = burst * 1000
+end
+
 return _M
